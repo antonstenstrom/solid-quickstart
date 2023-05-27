@@ -10,6 +10,6 @@ describe('empty spec', () => {
 
   it('displays Click button', () => {
     cy.get('button')
-    .contains('Boka åk');
+    .contains('clicks');
   })
 })
