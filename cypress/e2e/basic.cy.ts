@@ -5,7 +5,7 @@ describe('empty spec', () => {
 
   it('display header text', () => {
     cy.get('h1')
-    .contains('Välkommen till Kalmar Wakepark!', { matchCase: false })
+    .contains('Valkommen till Kalmar Wakepark!', { matchCase: false })
   })
 
   it('displays Click button', () => {
